@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*
+{
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+table 
+{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+table td,th
+{
+    border: 1px solid #ccc;
+    padding: 8px 13px;
+}
+form 
+{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    margin-top: 10px;
+    gap:10px;
+}
+form input
+{
+    padding: 5px 10px;
+}
+.country
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,18 @@
+.Student_table table
+{
+  border:1px solid #b64141;
+  color: #17192c;
+  width: 300px;
+  border-collapse:collapse;
+  margin-bottom: 10px;
+}
+.Student_table table th,.Student_table table td
+{
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+.Student_table th
+{
+    width: 100px;
+}
