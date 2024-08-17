@@ -13,25 +13,46 @@
 // import { UpdateText } from './components/updateText.jsx';
 // import { User_details } from './components/userDetails.jsx';
 
-import { Weather } from "./components/weather.jsx";
+// import { Bmicalculator } from "./components/bmi_calculator";
+
+// import { Weather } from "./components/weather";
 
 // import { Advice } from "./components/advice";
 //import { Regform } from "./components/usestate_form";
 
+// import { StrongPassword } from "./components/strongPassword";
+
+import { Faq } from "./components/faq.jsx";
 
 function App() {
+    const data=[
+        {
+            id:1,question:"What is React?",answer:"React is a front end JavaScript library for building user interfaces or UI componenets."
+        },
+        {
+            id:2,question:"What are the benefits of React?",answer:"Some of the benfits of react are:it is fast,scalable,modular,easy to debug,and supports server-side rendering."
+        },
+        {
+            id:3,question:"What are the main concepts of React?",answer:"Some of the main concepts of React are: components,props,state,hooks,lifecycle methos and JSX"
+        },
+    ]
+    return (<>
 
-  return ( <>
-  
         <div className="App">
             {/* <Card/> 
-            <Qrcode/>
+
              <Cart/>
             <User_details/> 
             <UpdateText/>
             <Regform/>
-            <Advice/>*/}
+            <Advice/>
             <Weather/>
+         <Bmicalculator/>
+            
+            <Qrcode/>
+            <StrongPassword/>
+            */}
+            <Faq data={data}/>
             
         </div>
     </>)

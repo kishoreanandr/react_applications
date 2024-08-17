@@ -53,3 +53,109 @@ body
     padding: 10px;
     cursor: pointer;
 }
+.image
+{
+    text-align: center;
+    height: 150px;
+    margin-top:12px;
+}
+.image img
+{
+    height: 150px;
+    width: 150px;
+}
+.temp,.location,.country
+{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+    color: #333;
+    text-transform: uppercase;
+}
+.temp
+{
+    font-weight: 500;
+}
+.location
+{
+    text-transform: uppercase;
+    color: #ffbc00;
+    font-weight: 400;
+    font-size: 40px;
+}
+.country
+{
+    font-size: 18px;
+    color: #888;
+    font-weight: 500;
+}
+.co-ordinates
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.co-ordinates div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.co-ordinates div span
+{
+    font-size: 14px;
+}
+.humidity-percent,.wind-percent,
+.co-ordinates div span:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    padding-top: 5px;
+}
+.data-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+} 
+.element img
+{
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+}  
+.element
+{
+    text-align: center;
+}
+.text
+{
+    font-size: 12px;
+    color: #888;
+}
+.copyrights
+{
+    text-align: center;
+    color: #888;
+    font-size: 15px;
+    font-weight: 500;
+}
+.copyrights span
+{
+    color: rgb(100, 78, 78);
+}
+.loading-message,.error-message,.city-not-found
+{
+    margin-top: 10px;
+    color: rgb(253, 83, 83);
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
