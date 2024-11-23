@@ -90,7 +90,7 @@ export const Weather = () => {
     const search =async()=>
     {
         setLoading(true);
-        let url=`https://api.openweathermap.org/data/2.5/weather?q=${text}&appid=dc1f405255bb84f8d8e09a6fed353ad9&units=Metric`;
+        let url=`https://api.openweathermap.org/data/2.5/weather?q=${text}&appid=""`;
         try
         {
             let res=await fetch(url);
