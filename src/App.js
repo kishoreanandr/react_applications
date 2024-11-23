@@ -22,7 +22,8 @@
 
 // import { StrongPassword } from "./components/strongPassword";
 
-import { Faq } from "./components/faq.jsx";
+// import { Faq } from "./components/faq.jsx";
+import { Filter } from "./components/Filter.jsx";
 
 function App() {
     const data=[
@@ -51,8 +52,10 @@ function App() {
             
             <Qrcode/>
             <StrongPassword/>
+            
+            <Faq data={data}/> 
             */}
-            <Faq data={data}/>
+            <Filter/>
             
         </div>
     </>)
