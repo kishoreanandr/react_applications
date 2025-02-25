@@ -15,7 +15,7 @@
 
 // import { Bmicalculator } from "./components/bmi_calculator";
 
-// import { Weather } from "./components/weather";
+import { Weather } from "./components/weather";
 
 // import { Advice } from "./components/advice";
 //import { Regform } from "./components/usestate_form";
@@ -23,7 +23,7 @@
 // import { StrongPassword } from "./components/strongPassword";
 
 // import { Faq } from "./components/faq.jsx";
-import { Filter } from "./components/Filter.jsx";
+// import { Filter } from "./components/Filter.jsx";
 
 function App() {
     const data=[
@@ -47,15 +47,16 @@ function App() {
             <UpdateText/>
             <Regform/>
             <Advice/>
-            <Weather/>
+
          <Bmicalculator/>
             
             <Qrcode/>
             <StrongPassword/>
             
             <Faq data={data}/> 
-            */}
             <Filter/>
+            */}
+            <Weather/>
             
         </div>
     </>)
